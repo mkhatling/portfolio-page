@@ -7,7 +7,6 @@ This was a good exercise in learning more about CSS formatting and positioning.
 ## Usage
 Here's a screenshot of the page
 
-    ```md
+   
     ![Page screenshot](assets/images/capture.PNG)
-    ```
     

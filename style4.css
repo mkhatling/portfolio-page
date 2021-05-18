@@ -2,6 +2,7 @@
     background-color: whitesmoke;
     color: navy;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 
 header {
@@ -37,15 +38,19 @@ nav a {
     padding: 40px;
 }
 
+nav a:hover {
+    color: aliceblue;
+}
+
 figure  {
     height: 300px;
     background-image: url(images/millruins.JPG);
-     background-size: cover;
-     margin: 0px;
-     width: 100%;
-     display: flex;
-     align-items: flex-end;
-     justify-content: flex-end;
+    background-size: cover;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
     /*display: flex;
     justify-content: flex-end;
     align-items:flex-end;
@@ -59,33 +64,166 @@ figure h2 {
     margin: 75px;
     font-size: 36px;
 }
+
+.section-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(2 , 1fr 2fr); */
+}
+
+
+
+section h2 {
+    font-size: 40px;
+    margin: 50px;
+    text-align: right;
+}
+
+/* section p {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 100px;
+    justify-content: center;
+} */
+
  
 /*section {
     display: flex; 
     justify-content: space-between;
-}
+}*/
 
 .sidebar {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     border-right: solid;
-    height: 200px;
+    /* height: 200px; */
     width: 200px;
+    margin: 50px;
+} 
+ 
+
+ /* .section-main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: pink;
+}  */
+
+#works {
+    height: 1000px;
+    /* background-color: aquamarine; */
+    
+}
+
+/* .projects {
+    display: grid;
+    background-color: pink;
+    grid-template-columns: 3fr 1fr 1fr;
 } */
 
+h3 {
+background-color: turquoise;
+width: 50%;
+}
 
-/* p {
-    display: flex;
-    flex-wrap: wrap;
+/* .lesser-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  
 } */
 
-/* .section-main {
-    margin-right: 100px;
-    margin-left: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+#project1 {
+    height: 500px;
+    width: 700px;
+    margin: 50px;
+    background-image: url("https://s3.amazonaws.com/www-inside-design/uploads/2019/07/minimalismfeature-810x810.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#project2 {
+    height: 200px;
+    width: 350px;
+    margin: 50px;
+    background-image: url( "https://images.iphonephotographyschool.com/10266/708/Minimalist-iPhone-Photos-30.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#project3 {
+    height: 200px;
+    width: 350px;
+    margin: 50px;
+    background-image: url("https://usabilitygeek.com/wp-content/uploads/2016/04/less-is-more-minimalist-web-design.jpg");
+    background-size: contain;
+}
+
+#project4 {
+    height: 200px;
+    width: 350px;
+    margin: 50px;
+    background-image: url("https://www.myclickmagazine.com/wp-content/uploads/2019/02/Photographing_Minimalism_Composition_Negative_Space_by_Dana_Walton_08-1200x800.jpg");
+    background-size: contain;
+}
+
+#project5 {
+    height: 200px;
+    width: 350px;
+    margin: 50px;
+    background-image: url("https://www.myclickmagazine.com/wp-content/uploads/2019/02/Photographing_Minimalism_Composition_Negative_Space_by_Dana_Walton_01.jpg");
+    background-size: contain;
+}
+
+footer a {
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 25px;
+    color: turquoise;
+    padding: 40px;
+}
+
+.projects {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+ .projects:hover {
+    box-shadow: inset 0px 0px 8px rgba(0, 150, 150, 1), 0 0 15px rgba(0, 150, 150, 1);
+}
+
+footer a:hover {
+    color: navy;
+}
+
+@media screen and (max-width: 992px) {
+body {
+    width: auto;
+}
+}
+
+@media  screen and (max-width: 768px) {
+body {
+    width: auto;
+}
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        width: auto;
+    }
+    
+}
+/*#project1 :hover {
+    box-shadow: inset 0px 0px 8px rgba(0, 150, 150, 1), 0 0 15px rgba(0, 150, 150, 1);
+}
+
+.work-main2-1 :hover {
+    box-shadow: inset 0px 0px 8px rgba(0, 150, 150, 1), 0 0 15px rgba(0, 150, 150, 1);
 } */
 
  /* main {

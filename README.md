@@ -8,5 +8,5 @@ This was a good exercise in learning more about CSS formatting and positioning.
 Here's a screenshot of the page
 
    
-    ![Page screenshot](assets/images/capture.PNG)
+    ![Page screenshot](/assets/images/capture.PNG)
     

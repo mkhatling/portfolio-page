@@ -13,8 +13,6 @@ header {
     align-items: center;
     margin: 0px;
     height: 100px;
-    /* margin-right: 50px; */
-    /* margin-left: 50px; */
 }
 
 header h1 {
@@ -51,11 +49,6 @@ figure  {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    /*display: flex;
-    justify-content: flex-end;
-    align-items:flex-end;
-    margin-right: 50px;
-    margin-left: 50px; */
 }
 
 figure h2 {
@@ -70,8 +63,6 @@ figure h2 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* display: grid;
-    grid-template-columns: repeat(2 , 1fr 2fr); */
 }
 
 
@@ -82,60 +73,25 @@ section h2 {
     text-align: right;
 }
 
-/* section p {
-    width: 500px;
-    height: 500px;
-    display: flex;
-    margin-top: 50px;
-    margin-right: 100px;
-    justify-content: center;
-} */
-
- 
-/*section {
-    display: flex; 
-    justify-content: space-between;
-}*/
-
 .sidebar {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     border-right: solid;
-    /* height: 200px; */
     width: 200px;
     margin: 50px;
 } 
- 
-
- /* .section-main {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    background-color: pink;
-}  */
 
 #works {
     height: 1000px;
-    /* background-color: aquamarine; */
     
 }
-
-/* .projects {
-    display: grid;
-    background-color: pink;
-    grid-template-columns: 3fr 1fr 1fr;
-} */
 
 h3 {
 background-color: turquoise;
 width: 50%;
 }
 
-/* .lesser-projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  
-} */
 
 #project1 {
     height: 500px;
@@ -218,71 +174,3 @@ body {
     }
     
 }
-/*#project1 :hover {
-    box-shadow: inset 0px 0px 8px rgba(0, 150, 150, 1), 0 0 15px rgba(0, 150, 150, 1);
-}
-
-.work-main2-1 :hover {
-    box-shadow: inset 0px 0px 8px rgba(0, 150, 150, 1), 0 0 15px rgba(0, 150, 150, 1);
-} */
-
- /* main {
-    display: flex;
-}  */
-
- /* .section-main {
-    display: flex;
-    flex-direction: column;
-}  */
-
- /* p {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 25px;
-    padding: 10px;
-}  */
-
-/* #about-me {
-    display: flex;
-    flex-grow: 4;
-    justify-content: space-between;
-}  */
-
-/* .sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-right: solid;
-    justify-content: flex-end;
-    width: 300px;
-    margin-left: 30px;
-    flex-grow: 1;
-    height: 100px;
-} */
-
-/* .section-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: hotpink;
-    margin: 50px;
-} */
-
-/* p #about-me {
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: center;
-} */
-
-/* figure h2 {
-    background-color: turquoise;
-    margin: 50px;
-    padding: 10px;
-} */
-
-/* #works {
-    flex-grow: .5;
-    display: flex;
-} */
-
